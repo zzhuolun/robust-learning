@@ -44,7 +44,8 @@ detection on FGSM attacked image:
 
 detection on PGD attacked image:
 
-![alt text](imgs/PGD_bbx.jpg "detection on PGD attacked image")
+![alt text](imgs/PGD_bbx.png "detection on PGD attacked image")
+
 #### Robustness training
 
 The following two robustness improving techniques have been implemented: 
