@@ -34,12 +34,24 @@ The following three perturbations have been implemented in the attacks module:
 2. FGSM  ```generate_fgsm_image(model, images, targets, epsilon, model_type)```
 3. PGD  ```generate_pgd_image(model, images, targets, alpha, epsilon, iterations, model_type)```
 
+detection on clean image:
+![alt text](clean_bbx.jpg "detection on clean image")
+
+detection on FGSM attacked image:
+![alt text](FGSM_bbx.jpg "detection on FGSM attacked image")
+
+detection on PGD attacked image:
+![alt text](PGD_bbx.jpg "detection on PGD attacked image")
 #### Robustness training
 
 The following two robustness improving techniques have been implemented: 
 ##### 1. Adversarial Training
 
 ![alt text](AdversarialTraining.jpg "Adversarial Training")
+
+Results of Adversarial Training:
+![alt text](adversarialTraining_results.jpg "Adversarial Training Results")
+
 ```sh
     cd src
     # For Retinanet:
