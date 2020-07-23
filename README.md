@@ -36,25 +36,25 @@ The following three perturbations have been implemented in the attacks module:
 
 detection on clean image:
 
-![alt text](clean_bbx.jpg "detection on clean image")
+![alt text](imgs/clean_bbx.jpg "detection on clean image")
 
 detection on FGSM attacked image:
 
-![alt text](FGSM_bbx.jpg "detection on FGSM attacked image")
+![alt text](imgs/FGSM_bbx.jpg "detection on FGSM attacked image")
 
 detection on PGD attacked image:
 
-![alt text](PGD_bbx.jpg "detection on PGD attacked image")
+![alt text](imgs/PGD_bbx.jpg "detection on PGD attacked image")
 #### Robustness training
 
 The following two robustness improving techniques have been implemented: 
 ##### 1. Adversarial Training
 
-![alt text](AdversarialTraining.jpg "Adversarial Training")
+![alt text](imgs/AdversarialTraining.jpg "Adversarial Training")
 
 Results of Adversarial Training:
 
-![alt text](adversarialTraining_results.jpg "Adversarial Training Results")
+![alt text](imgs/adversarialTraining_results.jpg "Adversarial Training Results")
 
 ```sh
     cd src
@@ -65,7 +65,7 @@ Results of Adversarial Training:
 ```
 ##### 2. Invariant Representation Learning
 
-![alt text](IRL.jpg "IRL")
+![alt text](imgs/IRL.jpg "IRL")
 ```sh
     cd src
     # For Retinanet:
