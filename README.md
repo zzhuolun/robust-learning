@@ -77,9 +77,9 @@ Results of Adversarial Training:
 #### Literature
 
 - Adversarial Training
- 1. A. Madry et al., “Towards Deep Learning Models Resistant to Adversarial Attacks”, arXiv:1706.06083, 2017
+  1. A. Madry et al., “Towards Deep Learning Models Resistant to Adversarial Attacks”, arXiv:1706.06083, 2017
 
- 2. Kurakin, Alexey, Ian Goodfellow, and Samy Bengio. "Adversarial machine learning at scale", arXiv preprint arXiv:1611.01236 (2016).
+  2. Kurakin, Alexey, Ian Goodfellow, and Samy Bengio. "Adversarial machine learning at scale", arXiv preprint arXiv:1611.01236 (2016).
  
 - IRL
   1. J. Salazar et al., “Invariant Representation Learning for Robust Deep Networks”, workshop in NeurIPS, 2018
