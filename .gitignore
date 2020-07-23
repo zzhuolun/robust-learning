@@ -22,7 +22,7 @@ src/code/DSSD/DEVELOP_GUIDE.md
 *.zip
 #*.jpg
 *.pyc
-*.png
+#*.png
 __pycache__/
 *.pth
 *.pt
