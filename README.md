@@ -74,4 +74,14 @@ Results of Adversarial Training:
     # For YOLOv3:
     python code/YOLOv3/train.py --epochs 50 --training_type IRL --attack_type FGSM --eps 2 --irl_loss_type 6 --irl_alpha 0.5 --irl_beta 0.5 --irl_gamma 1.0
 ```
+#### Literature
 
+- Adversarial Training
+ 1. A. Madry et al., “Towards Deep Learning Models Resistant to Adversarial Attacks”, arXiv:1706.06083, 2017
+
+ 2. Kurakin, Alexey, Ian Goodfellow, and Samy Bengio. "Adversarial machine learning at scale", arXiv preprint arXiv:1611.01236 (2016).
+ 
+- IRL
+  1. J. Salazar et al., “Invariant Representation Learning for Robust Deep Networks”, workshop in NeurIPS, 2018
+  
+  2. D. Liang et al., “Learning Noise-Invariant Representations for Robust Speech Recognition” in IEEE SLT, 2018
