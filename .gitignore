@@ -20,7 +20,7 @@ src/code/DSSD/DEVELOP_GUIDE.md
 
 # Others
 *.zip
-*.jpg
+#*.jpg
 *.pyc
 *.png
 __pycache__/
