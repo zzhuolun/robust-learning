@@ -1,0 +1,21 @@
+MODEL:
+  NUM_CLASSES: 10
+  PRIORS:
+    FEATURE_MAPS: [64, 32, 16, 8, 4, 2, 1]
+    STRIDES: [8, 16, 32, 64, 128, 256, 512] # strides = image_size // feature_maps
+    MIN_SIZES: [20, 51, 133, 215, 297, 379, 460]
+    MAX_SIZES: [51, 133, 215, 297, 379, 460, 515]
+    ASPECT_RATIOS: [[2], [2, 3], [2, 3], [2, 3], [2, 3], [2], [2]]
+    BOXES_PER_LOCATION: [4, 6, 6, 6, 6, 4, 4] #boxes = 2 + #ratio * 2
+INPUT:
+  IMAGE_SIZE: 512
+
+SOLVER:
+  MAX_ITER: 180000
+  LR_STEPS: [80000, 100000]
+  GAMMA: 0.1
+  BATCH_SIZE: 16
+  LR: 1e-3
+  MOMENTUM: 0.9
+
+OUTPUT_DIR: 'outputs/bdd100k_daytime_512'

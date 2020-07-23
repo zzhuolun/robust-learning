@@ -1,0 +1,29 @@
+This is a module for adversarial attacks. It has FGSM and PGD currently implemented.
+
+To use the module follow the following steps:
+
+1. Add the path to your python script
+import os
+import sys
+
+sys.path.append((os.getcwd() + '/../shared/attacks'))
+or
+sys.path.append('/nfs/students/summer-term-2020/project-3/src/code/shared/attacks')
+
+**This assumes that your script path is code/model(YOLO or Retinanet)/script.py . If it is further nested please update the path accordingly.
+**IF not fallback is sys.path.append("/nfs/students/summer-term-2020/project-3/src/project-3/src/shared/attacks")
+
+2. Import the packages
+
+from perturbations import *
+from attack_utils import *
+from adversarial_train import *
+
+3. Call your relevant methods!
+
+
+Points to note:
+
+1. The function definition has some default values of epsilons and alphas assigned. Make sure to check them out if you're not passing any.
+
+2. The methods return a dictionary with keys as perturbation params. Please check the method definitions for exact structure

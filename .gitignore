@@ -1,0 +1,33 @@
+# Folders
+/anaconda3
+*data*
+/src/data2
+*weights
+*checkpoints*
+*logs
+*output*
+*outputs
+assets
+*backup
+*results
+*images
+src/code/DSSD/dssd/data/datasets/bdd100k
+
+# Files
+src/code/DSSD/run.sh
+src/code/DSSD/DEVELOP_GUIDE.md
+/src/*.sh
+
+# Others
+*.zip
+*.jpg
+*.pyc
+*.png
+__pycache__/
+*.pth
+*.pt
+*.swp
+*.v2
+*.sh
+.ipynb_checkpoints/
+.gitbackup/
