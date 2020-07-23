@@ -1,4 +1,4 @@
-# Project 3: Robust Intermediate Representations
+# Robust Intermediate Representations
 
 Neural networks in general are vulnerable to perturbations, which can be naturally occurring or adversarially generated. In context of autonomous driving these perturbations can have a significant impact on the performance of an object detector. We want to assess this impact and make the object detector robust to these perturbations.
 
